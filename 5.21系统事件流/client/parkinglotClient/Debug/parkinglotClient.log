@@ -1,0 +1,10 @@
+﻿生成启动时间为 2020/5/21 2:18:51。
+     1>项目“C:\Users\lenovo\Desktop\毕设\毕设源码\client\parkinglotClient\parkinglotClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (parkinglotClient.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         parkinglotClient.vcxproj -> C:\Users\lenovo\Desktop\毕设\毕设源码\client\Debug\systemClient.exe
+     1>已完成生成项目“C:\Users\lenovo\Desktop\毕设\毕设源码\client\parkinglotClient\parkinglotClient.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.06
