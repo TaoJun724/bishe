@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E8D35A83-F532-4572-83F3-5D10E3840D4F}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>systemServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\MySQL\MySQL Server 8.0\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\Program Files\MySQL\MySQL Server 8.0\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 8.0\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libmysql.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\MySQL Server 8.0\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AMGraph-impl.h" />
+    <ClInclude Include="amgraph.h" />
+    <ClInclude Include="CMysqlOperator.hpp" />
+    <ClInclude Include="Comm.hpp" />
+    <ClInclude Include="corrd.hpp" />
+    <ClInclude Include="deletebaseForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="functEndForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="insertDataBaseForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="matrixallocate.h" />
+    <ClInclude Include="modiftyDataForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="parkingMember.hpp" />
+    <ClInclude Include="parkingOperator.hpp" />
+    <ClInclude Include="Road.h" />
+    <ClInclude Include="serverForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="showCarRoteForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="showCarStatusForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="showRoadStatusForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="showSpaceStatusForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="startForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deletebaseForm.cpp" />
+    <ClCompile Include="functEndForm.cpp" />
+    <ClCompile Include="insertDataBaseForm.cpp" />
+    <ClCompile Include="modiftyDataForm.cpp" />
+    <ClCompile Include="serverForm.cpp" />
+    <ClCompile Include="showCarRoteForm.cpp" />
+    <ClCompile Include="showCarStatusForm.cpp" />
+    <ClCompile Include="showRoadStatusForm.cpp" />
+    <ClCompile Include="showSpaceStatusForm.cpp" />
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="systemServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="A停靠一.txt" />
+    <Text Include="A停靠二.txt" />
+    <Text Include="A停靠坐标一.txt" />
+    <Text Include="A停靠坐标二.txt" />
+    <Text Include="A充电.txt" />
+    <Text Include="A充电区坐标.txt" />
+    <Text Include="A区图路线.txt" />
+    <Text Include="A区图车位.txt" />
+    <Text Include="A区图顶点.txt" />
+    <Text Include="A小车停靠区坐标.txt" />
+    <Text Include="A小车构建.txt" />
+    <Text Include="A线路.txt" />
+    <Text Include="A线路坐标.txt" />
+    <Text Include="A车位坐标.txt" />
+    <Text Include="B停靠.txt" />
+    <Text Include="B停靠坐标.txt" />
+    <Text Include="B充电.txt" />
+    <Text Include="B充电坐标.txt" />
+    <Text Include="B区图路线.txt" />
+    <Text Include="B区图车位.txt" />
+    <Text Include="B区图顶点.txt" />
+    <Text Include="B小车停靠区坐标.txt" />
+    <Text Include="B小车构建.txt" />
+    <Text Include="B线路.txt" />
+    <Text Include="B线路坐标.txt" />
+    <Text Include="B车位坐标.txt" />
+    <Text Include="停车场A充电区坐标.txt" />
+    <Text Include="停车场B充电区坐标.txt" />
+    <Text Include="充电区坐标.txt" />
+    <Text Include="共用区图车位.txt" />
+    <Text Include="共用车位坐标.txt" />
+    <Text Include="功能A车位.txt" />
+    <Text Include="功能B车位.txt" />
+    <Text Include="功能共用车位.txt" />
+    <Text Include="区域线坐标.txt" />
+    <Text Include="小车停靠区坐标.txt" />
+    <Text Include="线路坐标.txt" />
+    <Text Include="车位坐标.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="deletebaseForm.resx">
+      <DependentUpon>deletebaseForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="functEndForm.resx">
+      <DependentUpon>functEndForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insertDataBaseForm.resx">
+      <DependentUpon>insertDataBaseForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modiftyDataForm.resx">
+      <DependentUpon>modiftyDataForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serverForm.resx">
+      <DependentUpon>serverForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showCarRoteForm.resx">
+      <DependentUpon>showCarRoteForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showCarStatusForm.resx">
+      <DependentUpon>showCarStatusForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showRoadStatusForm.resx">
+      <DependentUpon>showRoadStatusForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSpaceStatusForm.resx">
+      <DependentUpon>showSpaceStatusForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startForm.resx">
+      <DependentUpon>startForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

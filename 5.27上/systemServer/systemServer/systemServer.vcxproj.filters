@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="amgraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AMGraph-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixallocate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parkingMember.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parkingOperator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="serverForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="startForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deletebaseForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="functEndForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMysqlOperator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="showCarStatusForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="showCarRoteForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="showRoadStatusForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="showSpaceStatusForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="insertDataBaseForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modiftyDataForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="corrd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="serverForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="systemServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deletebaseForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="functEndForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="showCarStatusForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="showCarRoteForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="showRoadStatusForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="showSpaceStatusForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="insertDataBaseForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modiftyDataForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="A车位坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A小车停靠区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B车位坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B小车停靠区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="车位坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="充电区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="共用车位坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="区域线坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="停车场A充电区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="停车场B充电区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="线路坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="小车停靠区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B小车构建.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B充电坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B充电.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B线路坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B线路.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="功能B车位.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B区图车位.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="功能共用车位.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="共用区图车位.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="功能A车位.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A区图车位.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A小车构建.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A线路坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A线路.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A充电区坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A充电.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A停靠二.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A停靠坐标二.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A停靠坐标一.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A停靠一.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B区图路线.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B区图顶点.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A区图路线.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="A区图顶点.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B停靠.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="B停靠坐标.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="serverForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletebaseForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="functEndForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showCarRoteForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showCarStatusForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showRoadStatusForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSpaceStatusForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insertDataBaseForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modiftyDataForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
