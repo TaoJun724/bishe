@@ -1,0 +1,40 @@
+﻿生成启动时间为 2020/6/4 21:13:47。
+     1>项目“E:\Code\systemServer\systemServer\systemServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 8.0\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib systemServer.cpp
+         systemServer.cpp
+     1>systemServer.cpp(8272): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8273): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8274): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8276): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8277): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8278): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8279): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8280): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8281): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8282): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8283): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8284): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>systemServer.cpp(8383): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+       Link:
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\systemServer\x64\Debug\systemServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 8.0\include" /LIBPATH:D:\VS\VC\include /LIBPATH:D:\VS\VC\atlmfc\include /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\systemServer.deletebaseForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.functEndForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.insertDataBaseForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.modiftyDataForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.parkForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.sendForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.serverForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showCarRoteForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showCarStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showRoadStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showSpaceStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.startForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\systemServer\x64\Debug\systemServer.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\deletebaseForm.obj
+         x64\Debug\functEndForm.obj
+         x64\Debug\insertDataBaseForm.obj
+         x64\Debug\modiftyDataForm.obj
+         x64\Debug\parkForm.obj
+         x64\Debug\sendForm.obj
+         x64\Debug\serverForm.obj
+         x64\Debug\showCarRoteForm.obj
+         x64\Debug\showCarStatusForm.obj
+         x64\Debug\showRoadStatusForm.obj
+         x64\Debug\showSpaceStatusForm.obj
+         x64\Debug\start.obj
+         x64\Debug\systemServer.obj
+         "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+         systemServer.vcxproj -> E:\Code\systemServer\x64\Debug\systemServer.exe
+     1>已完成生成项目“E:\Code\systemServer\systemServer\systemServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.76
