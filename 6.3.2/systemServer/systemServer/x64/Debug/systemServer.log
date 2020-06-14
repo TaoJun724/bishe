@@ -1,7 +1,19 @@
-﻿生成启动时间为 2020/6/3 20:43:25。
-     1>项目“E:\Code\systemServer\systemServer\systemServer.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/6/11 14:02:42。
+     1>项目“E:\Git\bishe\6.3.2\systemServer\systemServer\systemServer.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\VS\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 8.0\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib systemServer.cpp
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 8.0\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib deletebaseForm.cpp functEndForm.cpp insertDataBaseForm.cpp modiftyDataForm.cpp parkForm.cpp sendForm.cpp serverForm.cpp showCarRoteForm.cpp showCarStatusForm.cpp showRoadStatusForm.cpp showSpaceStatusForm.cpp start.cpp systemServer.cpp
+         deletebaseForm.cpp
+         functEndForm.cpp
+         insertDataBaseForm.cpp
+         modiftyDataForm.cpp
+         parkForm.cpp
+         sendForm.cpp
+         serverForm.cpp
+         showCarRoteForm.cpp
+         showCarStatusForm.cpp
+         showRoadStatusForm.cpp
+         showSpaceStatusForm.cpp
+         start.cpp
          systemServer.cpp
      1>systemServer.cpp(4021): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
      1>systemServer.cpp(4022): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
@@ -16,8 +28,9 @@
      1>systemServer.cpp(4032): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
      1>systemServer.cpp(4033): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
      1>systemServer.cpp(4132): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+         正在生成代码...
        Link:
-         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\systemServer\x64\Debug\systemServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 8.0\include" /LIBPATH:D:\VS\VC\include /LIBPATH:D:\VS\VC\atlmfc\include /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\systemServer.deletebaseForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.functEndForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.insertDataBaseForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.modiftyDataForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.parkForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.sendForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.serverForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showCarRoteForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showCarStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showRoadStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showSpaceStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.startForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\systemServer\x64\Debug\systemServer.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\deletebaseForm.obj
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Git\bishe\6.3.2\systemServer\x64\Debug\systemServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 8.0\include" /LIBPATH:D:\VS\VC\include /LIBPATH:D:\VS\VC\atlmfc\include /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\systemServer.deletebaseForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.functEndForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.insertDataBaseForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.modiftyDataForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.parkForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.sendForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.serverForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showCarRoteForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showCarStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showRoadStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.showSpaceStatusForm.resources /ASSEMBLYRESOURCE:x64\Debug\systemServer.startForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Git\bishe\6.3.2\systemServer\x64\Debug\systemServer.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\deletebaseForm.obj
          x64\Debug\functEndForm.obj
          x64\Debug\insertDataBaseForm.obj
          x64\Debug\modiftyDataForm.obj
@@ -32,10 +45,10 @@
          x64\Debug\systemServer.obj
          "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
      1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
-     1>.NETFramework,Version=v4.5.AssemblyAttributes.obj : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“.NETFramework,Version=v4.5.AssemblyAttributes.obj”或在“E:\Code\systemServer\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-         systemServer.vcxproj -> E:\Code\systemServer\x64\Debug\systemServer.exe
-     1>已完成生成项目“E:\Code\systemServer\systemServer\systemServer.vcxproj”(Build 个目标)的操作。
+     1>.NETFramework,Version=v4.5.AssemblyAttributes.obj : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“.NETFramework,Version=v4.5.AssemblyAttributes.obj”或在“E:\Git\bishe\6.3.2\systemServer\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         systemServer.vcxproj -> E:\Git\bishe\6.3.2\systemServer\x64\Debug\systemServer.exe
+     1>已完成生成项目“E:\Git\bishe\6.3.2\systemServer\systemServer\systemServer.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:04.50
+已用时间 00:00:06.82
